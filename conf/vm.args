@@ -1,0 +1,5 @@
+## Name of the node
+-name internet_exam_system@127.0.0.1
+
+## Cookie for distributed erlang
+-setcookie mycomm72

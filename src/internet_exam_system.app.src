@@ -1,0 +1,13 @@
+{application, internet_exam_system,
+ [{description, "An exam system based on internet"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib,
+    cowboy,
+    lager
+   ]},
+  {mod, {internet_exam_system_app, []}},
+  {env,[]}
+ ]}.
